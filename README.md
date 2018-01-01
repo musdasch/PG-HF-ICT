@@ -3,13 +3,17 @@ My solutions for the module programing basics on the HF-ICT.
 
 This repository holds my solutions with useful comments. I add them as I do them as such the solutions are not complete. If you have any questions or requests im happy to receive an issue from you.
 
-##Contact
+## Solutions from others
+  * [Solutions from CoalaJoe](https://github.com/CoalaJoe/OOP1)
+  * [Solutions from streusselhirni](https://github.com/streusselhirni/hfict-he17-oop1-aufgaben)
+
+## Contact
 You can leave bug reports, feature requests, or comments using the issues section.
 
-##Thanks!
+## Thanks!
 Thank you for your interest!
 
-##License
+## License
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE Version 2, December 2004
 
 Copyright (C) 2017 Tim Vögtli musdasch@gmail.com
