@@ -1,6 +1,7 @@
-/* This program is used to add to integers together.
- * Autor: Tim Vögtli
- * Version: 1.0;
+/**
+ * This program is used to add to integers together.
+ * @author Tim Voegtli
+ * @version 1.0
  */
 #include <iostream>
 
