@@ -15,14 +15,18 @@
 using namespace std;
 
 int main(){
-	double hightCyl[2], radiusCyl[2], volumeCyl[2];
+	int cylCount(2);
+	double volumeSum(0);
+	double hightCyl[cylCount];
+	double radiusCyl[cylCount];
+	double volumeCyl[cylCount];
 	const double PI(3.14);
 
 	
 
-	for(int i=0; i<2; i++){
+	for(int i = 0; i < cylCount; i++){
 
-		cout << "---- Cylinder" << i+1 << " ----" << endl;
+		cout << "---- Cylinder " << i+1 << " ----" << endl;
 		cout << "Radius: ";
 		cin >> radiusCyl[i];
 		cout << "Height: ";
@@ -34,10 +38,11 @@ int main(){
 
 	cout << "---- Results ----" << endl;
 
-	for(int i=0; i<2; i++){
+	for(int i = 0; i < cylCount; i++){
+		volumeSum += volumeCyl[i];
 		cout << "Cylinder " << i+1 << ": " << volumeCyl[i] << endl;
 	}
 
-	cout << "Average volume: " << (volumeCyl[0]+volumeCyl[1])/2 << endl;
+	cout << "Average volume: " << volumeSum/cylCount << endl;
 
 }
