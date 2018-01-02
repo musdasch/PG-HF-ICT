@@ -1,5 +1,5 @@
 /**
- * The task 4.1 is to build a program which checks
+ * The task 4.2.1 is to build a program which checks
  * it an number is even or odd if the number is odd
  * the program checks if the number is above zero or
  * below.
