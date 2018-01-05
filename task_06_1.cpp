@@ -1,5 +1,5 @@
 /**
- * The task 6.1 is write a program which takes
+ * The task 6.1 is to write a program which takes
  * two masses and calculates the gravitation.
  *
  * @author Tim Voegtli
