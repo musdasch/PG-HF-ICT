@@ -1,7 +1,6 @@
 /**
  * The task 12.1 is to write a program which is
- * able to add all numbers from 1 up to a given
- * number.
+ * able to add two strings together.
  *
  * @author Tim Voegtli
  * @version 1.0
