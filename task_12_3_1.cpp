@@ -12,8 +12,8 @@
 using namespace std;
 
 /**
- * Finds the complement for a given range.
- * @param  value negative number
+ * Finds the complement
+ * @param  value number
  * @param  range range in which the number operates.
  * @return       complement
  */
