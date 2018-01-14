@@ -50,7 +50,7 @@ int main()
 	 * Get faculty.
 	 */
 	cout << "The faculty is: ";
-	cout << faculty(4) << endl;
+	cout << faculty(in) << endl;
 
 	return 0;
 }
