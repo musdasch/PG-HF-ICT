@@ -12,7 +12,7 @@
 using namespace std;
 
 /**
- * Finds the complement
+ * Finds the complement of a given number in a range.
  * @param  value number
  * @param  range range in which the number operates.
  * @return       complement
@@ -39,8 +39,6 @@ char cryptCharacter(char character, int key, int start, int range){
 		tmp = (int) tmp + key - start;
 		tmp = tmp % range;
 		tmp += start;
-
-		cout << tmp << endl;
 	}
 
 	return (char) tmp;
