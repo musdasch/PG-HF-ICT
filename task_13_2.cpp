@@ -17,7 +17,8 @@ using std::endl;
  * @param  value The number the faculty is based on.
  * @return       The faculty it self.
  */
-int faculty(int value){
+int faculty(int value)
+{
 	int out(1);
 
 	if(0 != value)
