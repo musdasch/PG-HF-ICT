@@ -52,6 +52,7 @@ char cryptCharacter(char character, int key, int start, int range){
  */
 void encrypt( char *array, int size, int key ){
 	for(int i(0); i < size; i++){
+		array[i] = cryptCharacter(array[i], key, 48, 10);
 		array[i] = cryptCharacter(array[i], key, 65, 26);
 		array[i] = cryptCharacter(array[i], key, 97, 26);
 	}
@@ -64,8 +65,11 @@ void encrypt( char *array, int size, int key ){
  * @param key   Key with which to decrypt.
  */
 void decrypt( char *array, int size, int key ){
-	key = complement(key, 26);
-	encrypt(array, size, key);
+	for(int i(0); i < size; i++){
+		array[i] = cryptCharacter(array[i], complement(key, 10), 48, 10);
+		array[i] = cryptCharacter(array[i], complement(key, 26), 65, 26);
+		array[i] = cryptCharacter(array[i], complement(key, 26), 97, 26);
+	}
 }
 
 /**
