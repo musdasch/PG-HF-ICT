@@ -21,12 +21,9 @@ int faculty(int value)
 {
 	int out(1);
 
-	if(0 != value)
+	for (int i = 1; i <= value; ++i)
 	{
-		for (int i = 0; i < value; ++i)
-		{
-			out *= value - i;
-		}
+		out *= i;
 	}
 
 	return out;
