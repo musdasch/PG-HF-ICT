@@ -1,3 +1,9 @@
+/**
+ * Task 15.2 is to understand the program below.
+ * 
+ * @author Tim Voegtli
+ * @version 1.0
+ */
 #include <iostream>
 
 using std::cout;
@@ -21,6 +27,7 @@ int main ( ) {
 	cout << "b = ? " << b << endl;			// OUT: b = ? 23
 											// or
 											// OUT: b = ? 22
+											
 											// The outcome will differ depending witch compiler you
 											// run.
 
