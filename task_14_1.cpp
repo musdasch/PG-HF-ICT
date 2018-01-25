@@ -4,6 +4,9 @@
  * If you guess wrong the program has too hint
  * if the given number is below or above the
  * hidden number.
+ * 
+ * @author Tim Voegtli
+ * @version 1.0
  */
 #include <iostream>
 #include <ctime>
